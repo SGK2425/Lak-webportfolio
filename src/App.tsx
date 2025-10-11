@@ -317,7 +317,7 @@ function App() {
               {
                 company: 'EY Technology Solutions',
                 role: 'Associate Test Manager',
-                period: 'Sep 2021 - Present',
+                period: 'Aug 2022 - Present',
                 description: [
                   'Involved on framework development and updating framework',
                   'Design,Develop,Execute,Maintain Automated test scripts',
@@ -327,9 +327,9 @@ function App() {
                 ]
               },
               {
-                company: 'HCL Technologies',
+                company: 'Accenture Solution Private Limited',
                 role: 'Test Lead',
-                period: 'Dec 2019 - Sep 2021',
+                period: 'Sep 2019 - Jun 2022',
                 description: [
                   'Framework development and updating framework',
                   'Design,Develop,Execute,Maintain Automated test scripts',
@@ -338,37 +338,17 @@ function App() {
                 ]
               },
               {
-                company: 'Hexaware Technologies',
-                role: 'System Analyst',
-                period: 'Jan 2018 - Dec 2019',
+                company: 'HCL Technologies',
+                role: 'Test Lead',
+                period: 'Apr 2017 - Aug 2019',
                 description: [
                   'Framework development and updating framework',
                   'Design,Develop,Execute,Maintain Automated test scripts',
-                  'Data validation using Excel and VB script macros to validate hug data check',
-                  'Prepared WSR and DSR and shared the same to the onsite counterpart.'
+                  'Handled multiple applications simultaneously with a limited time frame.',
+                  'Worked with development team to ensure testing issues are resolved.'
                 ]
               },
-              {
-                company: 'Payoda Technology Inc',
-                role: 'Senior Test Engineer',
-                period: 'Dec 2014 - Nov 2017',
-                description: [
-                  'Fully involved on framework development ',
-                  'Design,Develop,Execute,Maintain Automated test scripts',
-                  'Bug reporting, Retesting and closure of the bugs upon bug fix.',
-                  'Extensively involved in providing functional training to new team members.'
-                ]
-              },
-              {
-                company: 'Iframes Technologies',
-                role: 'Software Developer',
-                period: 'Jan 2013 - Dec 2014',
-                description: [
-                  'Involved in the preparation of Test Scenarios',
-                  'Test Cases & Test execution for various levels of testing like Functional and Regression Testing.',
-                  'Develop and Execute,Maintain Automated test scripts',
-                ]
-              }
+              
             ].map((job, index) => (
               <div key={index} className="p-8 bg-black/50 backdrop-blur-sm rounded-xl border border-blue-500/20 hover:border-blue-500 transition-colors">
                 <div className="flex flex-col md:flex-row gap-6">
@@ -552,7 +532,7 @@ function App() {
             <p className="text-gray-300 mb-6">{selectedProject.projectDescription}</p>
             <h3 className="project-title">Roles & Responsibility:</h3>
             <ul className="list-disc list-inside text-gray-300">
-              {selectedProject.Roles.map((role, index) => ( // Corrected variable name to 'role'
+              {selectedProject.Roles.map((role: any, index: any) => ( // Corrected variable name to 'role'
                 <li key={index}>{role}</li>
               ))}
             </ul>
