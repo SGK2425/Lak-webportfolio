@@ -316,7 +316,7 @@ function App() {
             {[
               {
                 company: 'EY Technology Solutions',
-                role: 'Associate Test Manager',
+                role: 'Senior Test Lead',
                 period: 'Aug 2022 - Present',
                 description: [
                   'Involved on framework development and updating framework',
@@ -328,7 +328,7 @@ function App() {
               },
               {
                 company: 'Accenture Solution Private Limited',
-                role: 'Test Lead',
+                role: 'Test Engineering Senior Analyst',
                 period: 'Sep 2019 - Jun 2022',
                 description: [
                   'Framework development and updating framework',
@@ -339,7 +339,7 @@ function App() {
               },
               {
                 company: 'HCL Technologies',
-                role: 'Test Lead',
+                role: 'Lead Engineer',
                 period: 'Apr 2017 - Aug 2019',
                 description: [
                   'Framework development and updating framework',
@@ -626,7 +626,7 @@ function App() {
       <footer className="py-5 border-t border-gray-800">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4 text-center">
-            <span className="text-white">Settipalli Gopikrishna</span>
+            <span className="text-white">Mullamuri Sreelakshmi</span>
           </h2>
           <div className="flex items-center justify-center py-4">
             <nav className="hidden md:flex items-center justify-center space-x-8">
