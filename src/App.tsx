@@ -549,19 +549,19 @@ function App() {
           <div className="max-w-4xl mx-auto space-y-8">
             {[
               {
-                institution: 'Prathyusha Engineering College',
-                university: 'Anna University, Tamil Nadu',
-                degree: 'Bachelor of Engineering - Electronics and Communication Engineering',
-                period: '2008-2013',
-                grade: '62.8 CGPA',
-                description: "As a Electronics and Communication Engineering graduate, I possess strong problem-solving and precision skills. Combining this foundation with my passion for technology, I'm venturing into IT. My college experience has equipped me to bridge the worlds of engineering and IT, applying efficiency and innovation to both realms, making me a versatile and adaptable professional."
+                institution: 'Vijaya krishna institute of technology and sciences',
+                university: 'Jawaharlal Nehru Technological University Hyderabad, Telangana',
+                degree: 'B.Tech - Electrical and Electronics Engineering',
+                period: '2008-2012',
+                grade: '74 CGPA',
+                description: "As a Electrical and Electronics Engineering graduate, I possess strong problem-solving and precision skills. Combining this foundation with my passion for technology, I'm venturing into IT. My college experience has equipped me to bridge the worlds of engineering and IT, applying efficiency and innovation to both realms, making me a versatile and adaptable professional."
               },
               {
-                institution: 'Sree Bharathi Junior collage',
+                institution: 'Vignan junior college',
                 university: 'Board of Intermediate Education, Andhra Pradesh',
                 degree: 'MPC (Mathematics, Physics and Chemistry)',
                 period: '2006-2008',
-                grade: '74.80',
+                grade: '81',
                 description: "I've embraced a dynamic academic journey. My studies have fostered critical thinking and a thirst for knowledge. Through my dedication and adaptability, I've honed essential skills that transcend disciplines, preparing me for future challenges and opportunities."
               },
               {
@@ -569,7 +569,7 @@ function App() {
                 university: 'Board Of Secondary Education, Andhra Pradesh',
                 degree: 'SSC - Xth',
                 period: '2005-2006',
-                grade: '67.10',
+                grade: '85',
                 description: "I embarked on my educational journey with enthusiasm. This pivotal year instilled a strong foundation in essential subjects and time management. It was a crucial step toward my academic and personal development, preparing me for the road ahead"
               },
             ].map((edu, index) => (
@@ -641,7 +641,7 @@ function App() {
 
           <div className="flex items-center justify-center py-4">
             <a href="tel:+91-9444344416" target="_blank" rel="noopener noreferrer" aria-label="Phone" className="mx-2 text-gray-400 hover:text-blue-500"> <Phone className="w-6 h-6" /> </a>
-            <a href="mailto:sgk2425@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" className="mx-2 text-gray-400 hover:text-blue-500"><Mail className="w-6 h-6" /> </a>
+            <a href="mailto:sreelakshmi4137@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" className="mx-2 text-gray-400 hover:text-blue-500"><Mail className="w-6 h-6" /> </a>
             <a href="https://www.linkedin.com/in/gopikrishna-settipalli-sgk2425/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="mx-2 text-gray-400 hover:text-blue-500"> <Linkedin className="w-6 h-6" /> </a>
             <a href="//wa.me/919444344416" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" className="mx-2 text-gray-400 hover:text-blue-500"> <Whatsapp className="w-6 h-6" /> </a>
             <a href="https://www.instagram.com/sgk2425" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="mx-2 text-gray-400 hover:text-blue-500"> <Instagram className="w-6 h-6" /> </a>
