@@ -197,7 +197,7 @@ function App() {
               <div className="md:w-1/2 pr-4 items-center justify-center">
                 <p className="text-left text-4xl md:text-4xl font-bold mb-6">Hello, I'm</p>
                 <p className="text-left text-4xl md:text-4xl font-bold mb-6">
-                  Settipalli Gopikrishna
+                  Mullamuri Sreelakshmi
                 </p>
                 <h2 className="text-left text-4xl md:text-4xl font-bold mb-6">
                   I am a <span ref={el} className="text-3xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text"></span>
