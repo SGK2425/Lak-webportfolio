@@ -212,7 +212,7 @@ function App() {
               <div className="md:w-1/2 pr-4 mt-8 md:mt-0 flex justify-center">
                 <div className="mb-8 relative myprofilecontainer">
                   <div className="rounded-full overflow-hidden w-[27rem] h-[27rem] border-4 border-blue-500 myprofileimg">
-                    <img src="https://res.cloudinary.com/do3edwdc3/image/upload/v1/MyProfile4_lo5i6o" alt="Profile" className="w-full h-full object-cover" />
+                    <img src="https://res.cloudinary.com/do3edwdc3/image/upload/v1760261441/1572763018017_cwvqjo.jpg" alt="Profile" className="w-full h-full object-cover" />
                   </div>
                   <div className="absolute inset-0 rounded-full border-4 border-blue-500 animate-pulse pointer-events-none"></div>
                 </div>
@@ -640,11 +640,11 @@ function App() {
           </div>
 
           <div className="flex items-center justify-center py-4">
-            <a href="tel:+91-9444344416" target="_blank" rel="noopener noreferrer" aria-label="Phone" className="mx-2 text-gray-400 hover:text-blue-500"> <Phone className="w-6 h-6" /> </a>
+            <a href="tel:+91-9100577681" target="_blank" rel="noopener noreferrer" aria-label="Phone" className="mx-2 text-gray-400 hover:text-blue-500"> <Phone className="w-6 h-6" /> </a>
             <a href="mailto:sreelakshmi4137@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" className="mx-2 text-gray-400 hover:text-blue-500"><Mail className="w-6 h-6" /> </a>
-            <a href="https://www.linkedin.com/in/gopikrishna-settipalli-sgk2425/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="mx-2 text-gray-400 hover:text-blue-500"> <Linkedin className="w-6 h-6" /> </a>
-            <a href="//wa.me/919444344416" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" className="mx-2 text-gray-400 hover:text-blue-500"> <Whatsapp className="w-6 h-6" /> </a>
-            <a href="https://www.instagram.com/sgk2425" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="mx-2 text-gray-400 hover:text-blue-500"> <Instagram className="w-6 h-6" /> </a>
+            <a href="https://www.linkedin.com/in/mullamuri-sreelakshmi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="mx-2 text-gray-400 hover:text-blue-500"> <Linkedin className="w-6 h-6" /> </a>
+            <a href="//wa.me/919100577681" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" className="mx-2 text-gray-400 hover:text-blue-500"> <Whatsapp className="w-6 h-6" /> </a>
+            <a href="https://www.instagram.com/sreelakshmi7475" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="mx-2 text-gray-400 hover:text-blue-500"> <Instagram className="w-6 h-6" /> </a>
             <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer" aria-label="X" className="mx-2 text-gray-400 hover:text-blue-500"> <Twitter className="w-6 h-6" /> </a>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="mx-2 text-gray-400 hover:text-blue-500"> <Github className="w-6 h-6" /> </a>
             
