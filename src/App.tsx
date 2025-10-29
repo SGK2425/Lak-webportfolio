@@ -381,43 +381,13 @@ function App() {
             Featured <span className="samplecolor">Projects</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
+            {[              
               {
-                title: 'Aladdin Blackrock',
-                description: 'Aladdin target management management platform, scalable portfolio monitoring and rebalancing, and specialized for model portfolio managers',
-                image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/br_r4konf',
-                tech: ['Cypress', 'JavaScript', 'BDD', 'Spring boot', 'API Testing', 'Postman', 'GIT'],
-                projectDescription: 'BlackRock Aladdin PM remains the industry leader in portfolio management it amis to deliver persona-centered workflow and hogh scale portfolio management. The platform simplifies complex portfolio management challenges with intuitive user experience and modular building blocks. Aladdin target management management platform, scalable portfolio monitoring and rebalancing, and specialized for model portfolio managers',
-                Roles: ['Understanding the requirement.',
-                  'Identifying test cases for Functional and Automation.',
-                  'Preparing Test scripts for Cypress, Appium and API Testing',
-                  'Updating framework functions when needed.',
-                  'Execution of test scripts for cross Browser testing and Devices.',
-                  'Report verification and validation.',
-                  'Review of Test Scripts and Execution Scripts',
-                  'Reviewing the test reports and preparing the Test summary reports.']
-              },
-              {
-                title: 'Morgan Stanley',
-                description: 'Interactions with accounts, measure the adoption of diverse products and online offerings for clients',
-                image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/ms_k6wflg',
-                tech: ['Selenium', 'Java', 'BDD', 'Macros', 'VB Script', 'Fast Framework', 'GIT'],
-                projectDescription: 'Field Management Business Service is a team dedicated to creating applications and systems that monitor financial advisors\' interactions with accounts, measure the adoption of diverse products and online offerings for clients, and compute compensation and rewards accordingly.',
-                Roles: ['Understanding the requirement.',
-                  'Identifying test cases for Functional and Automation.',
-                  'Preparing Test scripts for Selenium WebDriver, Appium and API Testing',
-                  'Updating framework functions when needed.',
-                  'Execution of test scripts for cross Browser testing and Devices.',
-                  'Report verification and validation.',
-                  'Review of Test Scripts and Execution Scripts',
-                  'Reviewing the test reports and preparing the Test summary reports.']
-              },
-              {
-                title: 'RF360 Qualcomm',
-                description: 'AR stock tool is generated only for China, Singapore and Germany employees who are eligible for stock rating.',
+                title: 'FMCC',
+                description: 'The FMCC application is a comprehensive enterprise solution designed to manage the sales, distribution, and inventory of fast-moving consumer commodities across various regions. The platform supports multiple modules including order management, inventory tracking, distributor onboarding, product catalog management, and real-time reporting dashboards. It facilitates seamless coordination between field sales agents, distributors, and central teams through mobile and web interface',
                 image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/rf_woji4c',
                 tech: ['Selenium', 'Java', 'BDD', 'Mobile Automation', 'Postman', 'Restassured', 'GIT'],
-                projectDescription: 'AR Stock tool which is custom application for RF360 all entities and RFFE Germany employees. This tool is mainly deployed for provide that the AR stock and promotion stock who are eligible in annual review process. Only for who has QUALCOMM ids can access this tool. Manager and Above roles can view/Edit the stock rating, Promotion and generating the stock reward statement for the employees. The AR stock tool is generated only for China, Singapore and Germany employees who are eligible for stock rating.',
+                projectDescription: 'The FMCC application is a comprehensive enterprise solution designed to manage the sales, distribution, and inventory of fast-moving consumer commodities across various regions. The platform supports multiple modules including order management, inventory tracking, distributor onboarding, product catalog management, and real-time reporting dashboards. It facilitates seamless coordination between field sales agents, distributors, and central teams through mobile and web interface',
                 Roles: ['Understanding the requirement.',
                   'Identifying test cases for Functional and Automation.',
                   'Preparing Test scripts for Selenium WebDriver, Appium and API Testing',
@@ -428,11 +398,11 @@ function App() {
                   'Reviewing the test reports and preparing the Test summary reports.']
               },
               {
-                title: 'NeoLink BNP Paribas',
-                description: 'Neo-Link offering allows clients to trade all electronic securities across over 90 markets worldwide',
+                title: 'Kaiser Permanente',
+                description: 'This project is done for one of the leading healthcare provider in US, The project included providing support for functional and automation testing for the IAM application and the integrated application',
                 image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/neolink_i94ybi',
                 tech: ['Selenium', 'Java', 'BDD', 'Postman', 'Restassured', 'SVN'],
-                projectDescription: 'Using Neo-Link Application Global execution offering allows clients to trade all electronic securities across over 90 markets worldwide. They simply execute trades through one of our execution to custody partners and leave the rest to us. Clearing and settlement services we connect clients trading activities to post trading market infrastructures either through a single global window or multi-direct set-up. Trade settlement needs to work efficiently and cost efficiently. Local custody key to successful post-trade processing is a partner who is at home in local market. Client can rely on deep understanding of local practices and rules. BNP Paribas securities services have launched a solution that allows our clients to anticipate liquidity requirements, leverage assert and optimise cash management.',
+                projectDescription: 'This project is done for one of the leading healthcare provider in US, The project included providing support for functional and automation testing for the IAM application and the integrated application',
                 Roles: ['Identifying test cases for automation.',
                   'Understanding the requirement.',
                   'Preparing Test scripts for Selenium WebDriver',
@@ -444,11 +414,11 @@ function App() {
                   'Reviewing the test reports and preparing the Test summary reports.']
               },
               {
-                title: 'CVP Arista Networks',
-                description: 'Arista is the core of Arista cloud networking solutions for next-generation data',
+                title: 'Emoney',
+                description: 'EMoney provides technology solutions and services that help people talk about money. Rooted in comprehensive financial planning, eMoney\'s solutions strengthen client relationships, streamline business operations, enhance business development and drive overall growth.',
                 image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/arista_je2x4e',
                 tech: ['Selenium', 'Java', 'BDD', 'Swagger', 'Postman', 'Restassured', 'SVN', 'SonarQube', 'Jacoco'],
-                projectDescription: 'Arista is the core of Arista cloud networking solutions for next-generation data centres and cloud networks Cloud architectures built with Arista EOS scale to tens of thousands of compute and storage nodes with management and provisioning capabilities that work at scale. Through its programmability, EOS enables a set of software applications that deliver workflow automation, unprecedented network visibility and analytics and rapid integration with a wide range of third-party applications for virtualization, management, automation, and orchestration services. Arista Extensible Operating System (EOS) is a fully programmable and highly modular, Linux based network operation system, using familiar industry standard CLI and runs a single binary software image across the Arista switching family. Architected for resiliency and programmability, EOS has a unique multi-process state sharing architecture that separates state information and packet forwarding from protocol processing and application logic.',
+                projectDescription: 'EMoney provides technology solutions and services that help people talk about money. Rooted in comprehensive financial planning, eMoney\'s solutions strengthen client relationships, streamline business operations, enhance business development and drive overall growth.',
                 Roles: ['Identifying test cases for automation.',
                   'Understanding the requirement.',
                   'Preparing Test scripts for Selenium WebDriver',
@@ -460,11 +430,11 @@ function App() {
                   'Reviewing the test reports and preparing the Test summary reports.']
               },
               {
-                title: 'CREXENDO',
-                description: 'Crexendo Chat & Video calling is an application',
+                title: 'PNC Financial Services Group',
+                description: 'PNC Financial Services Group, Inc. (stylized as PNC) is a bank holding company and financial services corporation based in Pittsburgh, Pennsylvania. Its banking subsidiary, PNC Bank, operates in 19 states and the District of Columbia with 2,459 branches and 9,051 ATMs. The company also provides financial services such as asset management, wealth management, estate planning, loan servicing, and information processing. \n I worked in project which is named as Lending, which entirely deals with Customer loans data with different types of loan accounts. We are testing the data migration of customer details from a legacy system to a latest system. We have also automated test cases using SELENIUM.',
                 image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/crexdeo_nrlwlv',
                 tech: ['Selenium', 'Java', 'Android', 'iOS', 'Andriod Studio', 'Xcode', 'physical Devices'],
-                projectDescription: 'Crexendo Video calling is an application which has ability to user can perform video calls on one to one basis with another Crexendo contact using the Crexendo application.The user can start an instant chat with other Crexendo user on one to one basis using the Crexendo application. The modules for the application like Sign Up, History, Contacts, Voice Calls, Video Calling, Instant Message and Settings.',
+                projectDescription: 'PNC Financial Services Group, Inc. (stylized as PNC) is a bank holding company and financial services corporation based in Pittsburgh, Pennsylvania. Its banking subsidiary, PNC Bank, operates in 19 states and the District of Columbia with 2,459 branches and 9,051 ATMs. The company also provides financial services such as asset management, wealth management, estate planning, loan servicing, and information processing. \n I worked in project which is named as Lending, which entirely deals with Customer loans data with different types of loan accounts. We are testing the data migration of customer details from a legacy system to a latest system. We have also automated test cases using SELENIUM.',
                 Roles: ['Identifying test cases for Manual Testing.',
                   'Understanding the requirement.',
                   'Preparing test cases using Redmine',
@@ -475,11 +445,11 @@ function App() {
                   'Reviewing the test Reports and Preparing test summary reports.']
               },
               {
-                title: 'Jovia Health Care',
-                description: 'Health Fleet is pioneering a new horizon in preventive healthcare and support',
+                title: 'Western Union Business',
+                description: 'Western Union Business Solutions is a dedicated business payments division of The Western Union Company, At Western Union, and People believe moving money for better means moving money for a better world – creating value for individuals, businesses and society. The Chain of Betters initiative has given people across the globe the opportunity to help create a better world. \n CCT is one of the world’s leading providers of cross-border business payments and it has Global pay, Global Pay Plus and more web based as well window based applications which enable to achieve our client goals and CCT has web services to exchange the market rates while payment transfers. ',
                 image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/healthFeet_gqklwa',
                 tech: ['Selenium IDE', 'Java', 'Selenium Webdriver', 'Funactional Testing'],
-                projectDescription: 'Health Fleet is pioneering a new horizon in preventive healthcare and support, one that focuses on individual needs, personal interaction and results Personalized Medical Nutrition and Behavioural Therapy-based health programs Dedicated health counsellors to oversee care and progress Accessible team of cross-functional health specialists committed to each user\'s success Robust, easy-to-use online platform for secure, at-home counselling Affordable care that can scale to meet the varying needs of users Just like the health characteristics of our users, our individualized prevention programs are unique. Each one is created and implemented by a team of highly qualified, highly dedicated healthcare professionals from a range of specialties. This multi-disciplinary approach enables us to meet many user needs and create a balance of one-on-one and group counselling. Our users access their live counselling through high-definition video (or via phone) for privacy and convenience.',
+                projectDescription: 'Western Union Business Solutions is a dedicated business payments division of The Western Union Company, At Western Union, and People believe moving money for better means moving money for a better world – creating value for individuals, businesses and society. The Chain of Betters initiative has given people across the globe the opportunity to help create a better world. \n CCT is one of the world’s leading providers of cross-border business payments and it has Global pay, Global Pay Plus and more web based as well window based applications which enable to achieve our client goals and CCT has web services to exchange the market rates while payment transfers. ',
                 Roles: ['Identifying test cases for Manual Testing and Automation test cases.',
                   'Understanding the requirement.',
                   'Preparing test scripts using Selenium IDE',
