@@ -416,7 +416,7 @@ function App() {
               {
                 title: 'Emoney',
                 description: 'EMoney provides technology solutions and services that help people talk about money. Rooted in comprehensive financial planning, eMoney\'s solutions strengthen client relationships, streamline business operations, enhance business development and drive overall growth.',
-                image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1/arista_je2x4e',
+                image: 'https://res.cloudinary.com/do3edwdc3/image/upload/v1761698472/Updated-Client-Portal-with-My-Plan_thin_iaudmm.png',
                 tech: ['Selenium', 'Java', 'BDD', 'Swagger', 'Postman', 'Restassured', 'SVN', 'SonarQube', 'Jacoco'],
                 projectDescription: 'EMoney provides technology solutions and services that help people talk about money. Rooted in comprehensive financial planning, eMoney\'s solutions strengthen client relationships, streamline business operations, enhance business development and drive overall growth.',
                 Roles: ['Identifying test cases for automation.',
